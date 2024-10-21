@@ -1,0 +1,26 @@
+.navbar{
+        background:#F7F3DE !important;
+}
+
+.navItems{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+}
+.navItem {
+        list-style-type: none;
+        margin-left: 25px;
+        
+}
+.navLink{
+        text-decoration: none;
+        color:black;
+        font-size: 20px;
+        transition: all 0.3s;
+}
+
+.navLink:hover{
+        border-bottom: 1px solid green;
+        text-decoration: dashed;
+        color: green;
+}
